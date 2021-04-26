@@ -1,16 +1,13 @@
-import speech_recognition as sr
 import time
-from time import ctime
 import playsound
 import os
 import random
-from gtts import gTTS
 from gtts.lang import tts_langs
-from deep_translator import (GoogleTranslator,
-                             single_detection,
-                             batch_detection)
+from deep_translator import (GoogleTranslator)
 import pickle
 import json
+
+# my classes
 import random_test
 import mike
 import lang_tests
@@ -19,7 +16,7 @@ import level_two
 import level_three
 import extras
 
-
+# game progress vars
 parts = {"l1_colours": "0", "l1_numbers": "0", "l1_animals": "0", "l2_greetings": "0", "l2_transport": "0",
          "l2_sports": "0", "l3_food": "0", "l3_clothes": "0", "l3_buildings": "0"}
 progress = {"name": "", "language": "",

@@ -3,6 +3,8 @@ import mike
 from deep_translator import (GoogleTranslator)
 import main
 
+# The three parts of the first level
+
 
 def colours(lan):
 
@@ -19,7 +21,7 @@ def colours(lan):
         clrOth = clrOth.lower()
         clrL.append(clrOth)
 
-    i = 9
+    i = 0
     newP = 0
 
     while i < 11:
@@ -68,7 +70,7 @@ def animals(lan):
         anmOth = anmOth.lower()
         anmL.append(anmOth)
 
-    i = 9
+    i = 0
     newP = 0
     while i < 11:
         correct = False
@@ -118,7 +120,7 @@ def numbers(lan):
         numL.append(numOth)
 
     newP = 0
-    i = 9
+    i = 0
     while i < 11:
         correct = False
         mike.mike(numEn[i] + " in " + language + " is ")

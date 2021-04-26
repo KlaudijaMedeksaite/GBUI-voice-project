@@ -3,6 +3,8 @@ import mike
 from deep_translator import (GoogleTranslator)
 import main
 
+# The three parts of the second level
+
 
 def greetings(lan):
     language = extras.get_language_long(lan)
@@ -20,7 +22,7 @@ def greetings(lan):
         numL.append(numOth)
 
     newP = 0
-    i = 9
+    i = 0
     while i < 11:
         correct = False
         mike.mike(numEn[i] + " in " + language + " is ")
@@ -67,7 +69,7 @@ def transport(lan):
         numL.append(numOth)
 
     newP = 0
-    i = 9
+    i = 0
     while i < 11:
         correct = False
         mike.mike(numEn[i] + " in " + language + " is ")
@@ -114,7 +116,7 @@ def sports(lan):
         numL.append(numOth)
 
     newP = 0
-    i = 9
+    i = 0
     while i < 11:
         correct = False
         mike.mike(numEn[i] + " in " + language + " is ")
