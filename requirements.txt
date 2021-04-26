@@ -1,0 +1,7 @@
+deep-translator==1.4.2
+gTTS==2.2.2
+pipwin==0.5.1
+playsound==1.2.2
+pyaudio==0.2.11
+SpeechRecognition==3.8.1
+translate==3.5.0
